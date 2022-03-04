@@ -4,7 +4,7 @@ import p from 'prop-types'
 function Button({
   children,
   version = "primary",
-  type = "button",
+  type = "submit",
   isDisabled = "false",
 }) {
   return (
